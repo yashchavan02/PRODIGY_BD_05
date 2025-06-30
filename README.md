@@ -88,7 +88,9 @@ cd PRODIGY_BD_05
 ### 2. Create Virtual Environment (Recommended)
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: hotel_booking_env\Scripts\activate
+source venv/Scripts/activate  # On Git Bash
+venv/bin/activate  # On Windows Terminal/cmd
+source venv/bin/activate  # On Linux/Mac 
 ```
 
 ### 3. Install Dependencies
